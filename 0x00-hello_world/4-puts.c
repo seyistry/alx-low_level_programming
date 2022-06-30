@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	puts(stderr, "Programming is like building a multilingual puzzle\n");
+	fputs("Programming is like building a multilingual puzzle\n", stdout);
 	return (0);
 }
 
