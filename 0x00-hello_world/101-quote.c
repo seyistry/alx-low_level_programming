@@ -6,8 +6,7 @@
  */
 int main(void)
 {
-	char myString[] = "and that piece of art is useful\" - \
-Dora Korpar, 2015-10-19";
-	fprintf(stderr, myString);
+	fprintf(stderr, "and that piece of art is useful\" - \
+			Dora Korpar, 2015-10-19");
 	return (1);
 }
