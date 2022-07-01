@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int i = 122;
+	char i = 'z';
 
-	while (i < 97)
+	while (i > '`')
 	{
 		putchar(i);
 		i--;
