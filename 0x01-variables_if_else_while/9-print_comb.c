@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-	char i = '0';
-	char j = '0';
+	int i = 49;
+	int j = 49;
 
-	while (i < ':')
+	while (i < 58)
 	{
 		putchar(i);
-		while (j < ':')
+		while (j < 58)
 		{
 			putchar(j);
 			putchar(',');
 			j++;
-		}	
+		}
 		i++;
 	}
 	putchar('\n');
