@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - Entry point
  *
@@ -12,14 +11,14 @@ int main(void)
 
 	while (i < 58)
 	{
-		j = 48;
+		j = 1;
 		while (j < 58)
 		{
 			if (i != j)
 			{
 				putchar(i);
 				putchar(j);
-				if (i != 57 || j != 56)
+				if (i != 56 || j != 57)
 				{
 					putchar(',');
 					putchar(' ');
