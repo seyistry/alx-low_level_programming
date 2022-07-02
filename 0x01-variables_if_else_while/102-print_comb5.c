@@ -19,7 +19,7 @@ int main(void)
 			k = i;
 			while (k < 58)
 			{
-				l = 49;
+				l = i;
 				while (l < 58)
 				{
 					if (j != i ||  k != i || l != i)
@@ -29,11 +29,11 @@ int main(void)
 						putchar(' ');
 						putchar(k);
 						putchar(l);
-					}
-					if (i != 57 || j != 56 || l != 57 || k != 57)
-					{
-						putchar(',');
-						putchar(' ');
+						if (i != 57 || j != 56 || l != 57 || k != 57)
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 					l++;
 				}
