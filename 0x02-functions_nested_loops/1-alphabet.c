@@ -14,10 +14,10 @@ int main(void)
 void print_alphabet(void)
 {
 	char i = 'a';
-
+	
 	while ( i < '{')
 	{
 		_putchar(i);
-		i++
+		i++;
 	}
 }
