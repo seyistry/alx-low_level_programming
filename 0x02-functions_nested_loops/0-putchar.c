@@ -7,8 +7,12 @@
  */
 int main(void)
 {
-	char myString[] = "_putchar";
-	_putchar(myString);
+	char myString[] = "_putchar\n";
+
+	for (int i = 0; i < strlen(myString); i++)
+	{
+		_putchar(myString[i]);
+	}
 	return (0);
 }
 
