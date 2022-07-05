@@ -4,6 +4,8 @@
 /**
  * _islower - check if value C is lowercase
  *@c: c is interger
+ *
+ *Return: 1 is c is lower or return 0 if not
  */
 int _islower(int c)
 {
