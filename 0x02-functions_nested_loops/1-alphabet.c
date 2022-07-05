@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- * print_hello - Prints "Hello"
+ * print_alphabet - print [a-z]
  */
 void print_alphabet(void)
 {
