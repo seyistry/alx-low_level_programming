@@ -22,10 +22,11 @@ void times_table(void)
 			{
 				int m = n / 10;
 				int l = n % 10;
+
 				_putchar(m + 48);
 				_putchar(l + 48);
-		    }
-			else 
+			}
+			else
 			{
 				_putchar(n + 48);
 			}
@@ -36,7 +37,7 @@ void times_table(void)
 			}
 			j++;
 		}
-		putchar('\n');
+		_putchar('\n');
 		i++;
 	}
 }
