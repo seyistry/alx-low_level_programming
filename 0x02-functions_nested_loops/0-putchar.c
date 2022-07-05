@@ -15,7 +15,7 @@ int main(void)
 	while (i < end)
 	{
 		printf("%s", myString);
-		i++
+		i++;
 	}
 	return (0);
 }
