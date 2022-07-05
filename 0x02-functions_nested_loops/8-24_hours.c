@@ -1,8 +1,9 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  * jack_bauer - print count to 99:99
- *@n: n is interger
+ *
  *
  *Return: return the last digits
  */
@@ -14,7 +15,7 @@ void jack_bauer(void)
 	while (i < 24)
 	{
 		j = 0;
-		while (j < 24)
+		while (j < 100)
 		{
 			_putchar((i / 10) + 48);
 			_putchar((i % 10) + 48);
