@@ -7,12 +7,18 @@
  */
 void print_alphabet(void)
 {
+	/**
+	 * main - Entry point
+	 *
+	 * Return: void (Success)
+	 */
 	char i = 'a';
 
-	while(i < '{')
+	while (i < '{')
 	{
 		_putchar(i);
 		i++;
 	}
 	_putchar('\n');
 }
+
