@@ -7,9 +7,7 @@
  */
 int main(void)
 {
-	char myString[] = "_putchar"
-
-	printf("%s", myString)
+	printf("%s", "_putchar")
 	return (0);
 }
 
