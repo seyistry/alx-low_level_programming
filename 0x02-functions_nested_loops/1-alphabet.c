@@ -9,7 +9,7 @@ void print_alphabet(void)
 {
 	char i = 'a';
 
-	while( i < '{')
+	while(i < '{')
 	{
 		_putchar(i);
 		i++;
