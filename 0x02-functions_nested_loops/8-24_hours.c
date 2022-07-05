@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,10 +11,10 @@ void jack_bauer(void)
 	int i = 0;
 	int j = 0;
 
-	while (i < 100)
+	while (i < 24)
 	{
 		j = 0;
-		while (j < 100)
+		while (j < 24)
 		{
 			putchar((i / 10) + 48);
 			putchar((i % 10) + 48);
