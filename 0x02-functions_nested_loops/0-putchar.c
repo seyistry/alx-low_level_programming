@@ -14,7 +14,7 @@ int main(void)
 
 	while (i < end)
 	{
-		_putchar("%s", myString[i]);
+		_putchar(myString[i]);
 		i++;
 	}
 	return (0);
