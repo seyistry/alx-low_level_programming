@@ -14,7 +14,7 @@ int main(void)
 
 	while (i < end)
 	{
-		printf("%s", myString);
+		_putchar("%s", myString[i]);
 		i++;
 	}
 	return (0);
