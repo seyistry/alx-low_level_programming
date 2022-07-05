@@ -7,15 +7,18 @@
  *
  *Return: return the last digits
  */
-int print_last_digit(long int n)
+int print_last_digit(int n)
 {
 	if (n < 0)
 	{
-		n = -1 * n;
-		return (n % 10);
+		n = (n % 10);
+		n *= -1;
+		_putchar(n)
+		return (n)
 	}
 	else
 	{
+		_putchar(n)
 		return (n % 10);
 	}
 }
