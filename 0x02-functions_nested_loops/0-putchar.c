@@ -8,15 +8,7 @@
  */
 int main(void)
 {
-	char myString[] = "_putchar\n";
-	int i = 0;
-
-	/**while (i < (int) strlen(myString))
-	{
-		_putchar(myString[i]);
-		i++;
-	}*/
-	_putchar("z");
+	_putchar('z');
 	return (0);
 }
 
