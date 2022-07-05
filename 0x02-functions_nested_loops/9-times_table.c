@@ -26,6 +26,10 @@ void times_table(void)
 				_putchar(m + 48);
 				_putchar(l + 48);
 			}
+			else if (n == 0)
+			{
+				_putchar('0' + n);
+			}
 			else
 			{
 				_putchar(' ');
