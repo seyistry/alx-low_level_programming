@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char myString[] = "_putchar";
+	char myString[] = "_putchar\n";
 	int i = 0;
 	int end = strlen(myString);
 
