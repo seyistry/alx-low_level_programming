@@ -1,19 +1,58 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - natural numbers
+ * print_times_table - times table o - 9
+ *@n: int n
  *
- * Return: Always 0.
+ *Return: return the last digits
  */
-int main(void)
+void print_times_table(int n)
 {
-	int a, j;
+	int i = 0;
+	int j = 0;
+	int k;
 
-	for (a = 1; a < 1024; a++)
+	while (i < n)
 	{
-		if ((a % 3) == 0 || (a % 5) == 0)
-			j += a;
+		j = 0;
+		while (j < n)
+		{
+			k = i * j;
+			if (k > 99)
+			{
+				int m = (k / 100);
+				int l = (k % 100) / 10;
+				int p = (k % 100) % 10;
+
+				_putchar(m + 48);
+				_putchar(l + 48);
+				_putchar(p + 48);
+			}
+			else if (k > 9)
+			{
+				int m = k / 10;
+				int l = k % 10;
+
+				_putchar(m + 48);
+				_putchar(l + 48);
+			}
+			else if (j == 0)
+			{
+				_putchar('0');
+			}
+			else
+			{
+				_putchar(' ');
+				_putchar(k + 48);
+			}
+			if (j < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			j++;
+		}
+		_putchar('\n');
+		i++;
 	}
-	printf("%d\n", j);
-	return (0);
 }
