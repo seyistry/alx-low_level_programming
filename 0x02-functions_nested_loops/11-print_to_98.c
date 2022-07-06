@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_to_98 - print any number to 98
+ * upperband - print greater than 98
  *@n: number to start from
- *Return: return result
+ *Return: void
  */
-void print_to_98(int n)
+void upperband(int n)
 {
 	while (n > 98)
 	{
@@ -24,7 +24,15 @@ void print_to_98(int n)
 		_putchar(' ');
 		n--;
 	}
+}
 
+/**
+ * lowerband - print lesser than 98
+ *@n: number to start from
+ *Return: void
+ */
+void lowerband(int n)
+{
 	while (n < 98)
 	{
 		if (n > 9)
@@ -58,6 +66,17 @@ void print_to_98(int n)
 		_putchar(' ');
 		n++;
 	}
+}
+
+/**
+ * print_to_98 - print any number to 98
+ *@n: number to start from
+ *Return: return result
+ */
+void print_to_98(int n)
+{
+	upperband(n);
+	lowerband(n);
 	_putchar((n / 10) + 48);
 	_putchar((n % 10) + 48);
 	_putchar('\n');
