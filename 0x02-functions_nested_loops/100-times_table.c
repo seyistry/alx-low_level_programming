@@ -15,6 +15,10 @@ void print_times_table(int n)
 	while (i < n + 1)
 	{
 		j = 0;
+		if (n > 15)
+		{
+			break;
+		}
 		while (j < n + 1)
 		{
 			k = i * j;
