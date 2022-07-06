@@ -41,11 +41,18 @@ void print_to_98(int n)
 			_putchar('-');
 			_putchar(n * -1 + 48);
 		}
-		else
+		else if (n > -100)
 		{
 			_putchar('-');
 			_putchar((n / 10) * -1 + 48);
 			_putchar((n % 10) * -1 + 48);
+		}
+		else
+		{
+			_putchar('-');
+			_putchar(-1 * (n / 100) + 48);
+			_putchar(-1 * (n % 100) / 10 + 48);
+			_putchar(-1 * (n % 100) % 10 + 48);
 		}
 		_putchar(',');
 		_putchar(' ');
