@@ -12,10 +12,10 @@ void print_times_table(int n)
 	int j = 0;
 	int k;
 
-	while (i < n)
+	while (i < n + 1)
 	{
 		j = 0;
-		while (j < n)
+		while (j < n + 1)
 		{
 			k = i * j;
 			if (k > 99)
