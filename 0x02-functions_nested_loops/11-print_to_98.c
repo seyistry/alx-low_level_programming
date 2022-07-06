@@ -77,7 +77,7 @@ void print_to_98(int n)
 {
 	upperband(n);
 	lowerband(n);
-	_putchar((n / 10) + 48);
-	_putchar((n % 10) + 48);
+	_putchar((98 / 10) + 48);
+	_putchar((98 % 10) + 48);
 	_putchar('\n');
 }
