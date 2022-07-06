@@ -33,6 +33,7 @@ void print_times_table(int n)
 				int m = k / 10;
 				int l = k % 10;
 
+				_putchar(' ');
 				_putchar(m + 48);
 				_putchar(l + 48);
 			}
@@ -42,6 +43,7 @@ void print_times_table(int n)
 			}
 			else
 			{
+				_putchar(' ');
 				_putchar(' ');
 				_putchar(k + 48);
 			}
