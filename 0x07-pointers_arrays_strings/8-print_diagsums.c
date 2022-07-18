@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_diagsums -  sum of the two diagonals 
+ * print_diagsums -  sum of the two diagonals
  * @a: array name
  * @size: array size
  *
