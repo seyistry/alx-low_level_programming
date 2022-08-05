@@ -21,25 +21,31 @@ void print_all(const char * const format, ...)
 		{
 			if (format[i] == t_arg[j] && c)
 			{
-				printf(", "), break;
+				printf(", ");
+				break;
 			}
 			j++;
 		}
 		switch (format[i])
 		{
 		case 'c':
-			printf("%c", va_arg(args, int)), c = 1, break;
+			printf("%c", va_arg(args, int)), c = 1;
+			break;
 		case 'i':
-			printf("%d", va_arg(args, int)), c = 1, break;
+			printf("%d", va_arg(args, int)), c = 1;
+			break;
 		case 'f':
-			printf("%f", va_arg(args, double)), c = 1, break;
+			printf("%f", va_arg(args, double)), c = 1;
+			break;
 		case 's':
 			str = va_arg(args, char *), c = 1;
 			if (!str)
 			{
-				printf("(nil)"), break;
+				printf("(nil)");
+				break;
 			}
-			printf("%s", str), break;
+			printf("%s", str);
+			break;
 		}
 		i++;
 	}
