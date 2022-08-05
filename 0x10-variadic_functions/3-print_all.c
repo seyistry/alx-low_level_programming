@@ -10,8 +10,7 @@ void print_all(const char * const format, ...)
 {
 	va_list args;
 	unsigned int i = 0, j, c = 0;
-	char *str;
-	const char t_arg[] = "cifs";
+	char *str, const char t_arg[] = "cifs";
 
 	va_start(args, format);
 	while (format && format[i])
@@ -40,11 +39,9 @@ void print_all(const char * const format, ...)
 		case 's':
 			str = va_arg(args, char *), c = 1;
 			if (!str)
-			{
 				printf("(nil)");
-				break;
-			}
-			printf("%s", str);
+			else
+			    printf("%s", str);
 			break;
 		}
 		i++;
