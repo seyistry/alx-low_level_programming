@@ -10,7 +10,8 @@ void print_all(const char * const format, ...)
 {
 	va_list args;
 	unsigned int i = 0, j, c = 0;
-	char t_arg[] = "cifs", *str;
+	const char t_arg[] = "cifs", 
+	char char *str;
 
 	va_start(args, format);
 	while (format && format[i])
