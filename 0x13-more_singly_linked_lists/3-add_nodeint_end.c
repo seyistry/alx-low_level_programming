@@ -26,7 +26,6 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	if (*head == NULL)
 	{
 		*head = new_node;
-		return (NULL);
 	}
 
 	/* 5. Else traverse till the last node */
