@@ -1,1 +1,1 @@
-C folder project in ALX
+# ALX low level programming in C
