@@ -28,7 +28,7 @@ An introductory project on:
 **[8-delete_dnodeint.c](8-delete_dnodeint.c)** - function that deletes a node at a given index of a `dlistint_t` linked list.
 
 ### Advanced
-**[100-password](100-password)** - the found password of [crackme4](https://github.com/holbertonschool/0x16.c)
+**[100-password](100-password)** - the found password of [crackme4](https://github.com/schoolschool/0x16.c)
 
 **[102-result](102-result)** - the largest palindrome made from the product of two 3-digit numbers.
 
